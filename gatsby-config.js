@@ -32,7 +32,7 @@ try {
 
 if (
     process.env.NODE_ENV === `production` &&
-    config.siteUrl === `http://imiel.work` &&
+    config.siteUrl === `http://localhost:8080` &&
     !process.env.SITEURL
 ) {
     throw new Error(
